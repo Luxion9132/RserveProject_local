@@ -1,0 +1,132 @@
+/* 
+    Document   : OTTZ
+    Created on : 2013/12/12, 上午 08:31:38
+    Author     : Leon
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@import url("MainmenuStyle1.css");
+
+body{
+	font-family: Trebuchet MS,Microsoft JhengHei, Times, serif;
+	width: 70%;
+	margin: auto;
+}
+
+hr {
+    border: 0;
+    height: 0;
+	width:70%;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+       }
+h1{
+	text-align: center;
+	padding-top: 30px;
+	color: #00607B;   
+}
+
+/*用於設置選擇表單的位置*/
+.selectionMain{
+    position: relative;
+
+            }
+/*用於設置顯示結果表單的位置*/
+.showResultMain{
+    position: relative;
+    left: 10%;
+}        
+
+/*用於底部footer位置*/
+.header{
+	position: relative;
+	left: 25%;
+	top: 30px;
+	font-size: 30px;
+	color: #006699;
+	padding-bottom: 20px;      
+}
+
+/*用於底部footer位置*/
+.footer{	
+    position: relative;
+	top: 30px;
+	font-size: 12px;
+    bottom: 0;
+	text-align:center
+        
+}
+
+/*用於主選單的設置*/
+.mainmenu{
+    
+}
+.mainmenu ul{
+    list-style: none;
+    padding: 0px;
+}
+.mainmenu ul li {
+    float:  left;
+    padding: 5px;
+}
+.mainmenu ul li a {
+    display: block;
+    padding: 5px 5px 5px 0.5em;
+    text-decoration: none;
+    border-left: 12px solid #711515;
+    border-right: 1px solid #711515;
+    background-color: #990020;
+    color: #ffff00
+}
+
+#devBlock{
+    position: fixed;
+    right: 0px;
+    width: 300px;
+    height: 200px;
+    /*background-color: #0D2658;*/
+    background-color: rgba(0,0,200,0.5); /*半透明底色*/
+    color: white;
+    border: 2px dashed #003366;      /* 虛線邊框 2 像素 深藍色*/    
+    padding:5px;
+}
+            
+/*用於輸入的table*/
+.selectionTable{
+		position: relative;
+		left: 50%;
+		font-size: 12px;
+		width: 45%;
+		border-collapse: collapse;
+		color: #666;
+
+            }
+.selectionTable tr{
+                font-size: 12px;
+                /*border:1px solid #2F6BCF;*/
+                padding-top:5px;
+                padding-bottom:4px;
+            }            
+            
+/*用於所有輸出的table*/
+.showTable{
+	width: 100%;
+	border-width: 3px;
+	border-style: groove;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+                    
+            }
+.showTable tr{
+
+}
+.showTable tr td{
+    text-align: center;
+}
+
+.sectionwrapTd{
+	position: relative;
+	left: 23%;
+}

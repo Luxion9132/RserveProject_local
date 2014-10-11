@@ -1,0 +1,76 @@
+/* 
+    Document   : MainmenuStyle1
+    Created on : 2014/3/11, 下午 01:00:45
+    Author     : Leon
+    Description:
+    from:
+    http://onwebdev.blogspot.com/2011/04/css-drop-down-menu-tutorial.html
+*/
+
+ #navigation {
+    margin: 0;
+    padding: 0 1em;
+    background: #F2EFDC;
+    height: 3em;
+    list-style: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+    }
+
+#navigation > li {
+	float: left;
+	margin-right: 0.5em;
+	padding: 0 1em;
+	position: relative;
+	left: 17%;
+}
+
+#navigation > li > a {
+    float: left;
+    height: 100%;
+    color: #F24C27;
+    text-decoration: none;
+    line-height: 3;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+}
+
+#navigation > li > a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+#navigation > li.sub {
+    position: relative;
+	color: #F24C27;
+}
+#navigation > li.sub ul {
+    width: 10em;
+    margin: 0;
+    padding: 0.5em 0;
+    list-style: none;
+    background: #F24C27;
+    position: absolute;
+    top: -1000em;
+}
+
+#navigation > li.sub ul li {
+    width: 90%;
+    margin: 0 auto 0.3em auto;
+}
+
+#navigation > li.sub ul li a {
+    height: 100%;
+    display: block;
+    padding: 0.4em;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#navigation > li.sub ul li a:hover {
+    background: #c60;
+    text-decoration: underline;
+}
+#navigation > li.sub:hover ul {
+    top: 3em;
+}
+
