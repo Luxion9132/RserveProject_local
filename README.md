@@ -1,6 +1,3 @@
-Rserve Project
-===================
-
 #簡述
 [簡述與Demo ](https://www.youtube.com/watch?v=IoY-J1h27ts) 
 
