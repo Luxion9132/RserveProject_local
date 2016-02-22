@@ -9,11 +9,16 @@
 @import url("MainmenuStyle1.css");
 
 body{
-	font-family: Trebuchet MS,Microsoft JhengHei, Times, serif;
+	font-family: "Trebuchet MS","Microsoft JhengHei", "Times", serif;            
 	width: 70%;
 	margin: auto;
 }
-
+h2.project-title {
+    font-size: 40px;
+    text-align: center;
+    color: #8E8E8E;
+    font-family: Georgia, Serif;
+}
 hr {
     border: 0;
     height: 0;
@@ -110,6 +115,9 @@ h1{
             }            
             
 /*用於所有輸出的table*/
+table {
+    /*border-collapse: collapse;*/
+}
 .showTable{
 	width: 100%;
 	border-width: 3px;
@@ -119,8 +127,10 @@ h1{
 	margin-right: auto;
                     
             }
-.showTable tr{
-
+.showTable tr:first-child {
+    /*border-bottom: 2px solid gray;*/
+    height: 40px;
+    font-size: 16px;
 }
 .showTable tr td{
     text-align: center;

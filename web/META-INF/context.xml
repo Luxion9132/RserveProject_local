@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context antiJARLocking="true" path="/OTTZ_ver4">
+<Context antiJARLocking="true" path="/OTTZ">
 <!--<Context>-->
     <Resource name="jdbc/ottzDB" 
               auth="Container"
               type="javax.sql.DataSource" 
-              username="Leon" 
+              username="sa" 
               password="rtdx9900"
               driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
-              url="jdbc:sqlserver://localhost\SQLSERVER2012;databaseName=ottzDB"
+              url="jdbc:sqlserver://localhost;databaseName=ottzDB"
               validationQuery="select 1"
               maxActive="10" 
               maxIdle="4"/>

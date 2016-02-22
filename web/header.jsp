@@ -6,5 +6,4 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<h2 align="left">Header OTTZ</h2>
-you can keep some space here for logo or something.
+<h2 class="project-title">OTTZ Rserve Project</h2>

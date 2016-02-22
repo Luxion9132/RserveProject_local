@@ -1,0 +1,16 @@
+{
+    "contents" : "Package: RjavaOTTZ\nType: Package\nTitle: RJavaOTTZ\nVersion: 1.0\nDate: 2014-04-04\nAuthor: Leon\nMaintainer: leon <luxion91@gmail.com>\nDescription: main code author is Yatin,this code make them to functions for Rserve.\nLicense: none\n",
+    "created" : 1455640979695.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1096430437",
+    "id" : "7D5ACB89",
+    "lastKnownWriteTime" : 1396599174,
+    "path" : "~/R_project_Leon/Rjava/Rjava_OTTZ/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "dcf"
+}

@@ -68,13 +68,13 @@
                     <tr>
                         <td>建模開始日期</td>
                         <td>                            
-                            <input type = "date" name = "trainStartDate" value = "2013-01-01"/>
+                            <input type = "date" name = "trainStartDate" value = "2015-01-01"/>
                         </td>
                     </tr>
                     <tr>
                         <td>建模開始日期</td>
                         <td>                            
-                            <input type = "date" name = "trainEndDate" value = "2013-12-01"/>
+                            <input type = "date" name = "trainEndDate" value = "2015-12-01"/>
                         </td>                       
                     </tr>
                 </table>
@@ -156,13 +156,13 @@
                     <tr>
                         <td>建模開始日期</td>
                         <td>                            
-                            <input type = "date" name = "trainStartDate" value = "2013-01-01"/>
+                            <input type = "date" name = "trainStartDate" value = "2015-01-01"/>
                         </td>
                     </tr>
                     <tr>
                         <td>建模結束日期</td>
                         <td>                            
-                            <input type = "date" name = "trainEndDate" value = "2013-05-01"/>
+                            <input type = "date" name = "trainEndDate" value = "2015-05-01"/>
                         </td>                       
                     </tr>
                 </table>
@@ -243,13 +243,13 @@
                     <tr>
                         <td>建模開始日期</td>
                         <td>                            
-                            <input type = "date" name = "trainStartDate" value = "2013-01-01"/>
+                            <input type = "date" name = "trainStartDate" value = "2015-01-01"/>
                         </td>
                     </tr>
                     <tr>
                         <td>建模結束日期</td>
                         <td>                            
-                            <input type = "date" name = "trainEndDate" value = "2013-06-01"/>
+                            <input type = "date" name = "trainEndDate" value = "2015-06-01"/>
                         </td>                       
                     </tr>
                 </table>

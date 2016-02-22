@@ -1,0 +1,9 @@
+Package: RjavaOTTZ
+Type: Package
+Title: RJavaOTTZ
+Version: 1.0
+Date: 2014-04-04
+Author: Leon
+Maintainer: leon <luxion91@gmail.com>
+Description: main code author is Yatin,this code make them to functions for Rserve.
+License: none

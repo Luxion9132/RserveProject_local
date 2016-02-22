@@ -24,10 +24,11 @@
         
         <h1>Filter Training</h1>
       
-        <sql:setDataSource driver="com.microsoft.sqlserver.jdbc.SQLServerDriver" user="Leon" password="rtdx9900" 
-                           url="jdbc:sqlserver://localhost\SQLSERVER2012;databaseName=ottzDB"
+        <%--sql:setDataSource driver="com.microsoft.sqlserver.jdbc.SQLServerDriver" user="sa" password="rtdx9900" 
+                           url="jdbc:sqlserver://localhost;databaseName=ottzDB"
                            scope="session"
-                           var="myDS"/>
+                           var="myDS"/--%>
+        
   
      
         <sql:query var="rs" dataSource="jdbc/ottzDB" scope="page">

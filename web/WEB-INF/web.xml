@@ -4,9 +4,9 @@
         <location>/error.jsp</location>
     </error-page>
     <context-param>
-        <description>user login for Sql server</description>
+        <description>user name for Sql server</description>
         <param-name>ottzUser</param-name>
-        <param-value>Leon</param-value>
+        <param-value>sa</param-value>
     </context-param>
     <context-param>
         <description>user pwd for Sql Server</description>
@@ -14,19 +14,19 @@
         <param-value>rtdx9900</param-value>
     </context-param>
     <context-param>
-        <description>ODBC instance name for RODBC</description>
+        <description>ODBC instance name, used for RODBC</description>
         <param-name>ottzODBC</param-name>
         <param-value>Leon_Stock_2012_TestDB</param-value>
     </context-param>
     <context-param>
         <description>used for r image path, server local path</description>
         <param-name>ottzRimagePath</param-name>
-        <param-value>C:/Users/Leon/Documents/NetBeansProjects/OTTZ_ver4</param-value>
+        <param-value>C:\Users\Leon\Documents\NetBeansProjects\OTTZ</param-value>
     </context-param>
     <context-param>
-        <description>for connection</description>
+        <description>used for JDBC connection</description>
         <param-name>ottzDBurl</param-name>
-        <param-value>jdbc:sqlserver://localhost\SQLSERVER2012;databaseName=ottzDB</param-value>
+        <param-value>jdbc:sqlserver://localhost;databaseName=ottzDB</param-value>
     </context-param>
     <context-param>
         <param-name>ottzDBname</param-name>
